@@ -1,11 +1,13 @@
 import React from 'react';
 import './Container.css'
-import QuizCont from '../QuizCont/QuizCont';
+import QuizCont from '../TopicCont/TopicCont';
 import CalCart from '../CalCart/CalCart';
+import { useLoaderData } from 'react-router-dom';
 const Container = () => {
+    const loaderData = useLoaderData() ;
     return (
         <div className='container'>
-            <QuizCont></QuizCont>
+            <QuizCont topicData={loaderData}></QuizCont>
             <CalCart></CalCart>
         </div>
     );

@@ -3,8 +3,8 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            <h1>This is the footer.</h1>
+        <div className='footer'>
+            <h1>All rights reserved by QuizHub Inc.</h1>
         </div>
     );
 };

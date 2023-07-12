@@ -1,9 +1,14 @@
 .sub-header {
-    background-color: rgb(57, 207, 207);
+    background-image: url('../../Images/quiz\ bg.avif');
+    background-size: cover ;
+    background-color: rgba(240, 244, 242, 0.23);
     margin: 0;
+    padding: 30px;
+    color: white;
 }
 .sub-header h2 {
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
+    font-size: 40px;
 }

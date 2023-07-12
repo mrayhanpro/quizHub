@@ -1,0 +1,9 @@
+.navitems a{
+    margin-right: 20px;
+}
+.navitems a:hover {
+  color: red;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}

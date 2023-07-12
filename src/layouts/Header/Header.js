@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import Logo from '../../components/Logo/Logo';
 import Nabvar from '../../components/Navbar/Nabvar';
 import './Header.css';

@@ -1,15 +1,16 @@
 import React from 'react';
-import './Topics.css'
 import { useLoaderData } from 'react-router-dom';
 import Topic from '../Topic/Topic';
+import SubHeader from '../../layouts/SubHeader/SubHeader';
 import Footer from '../../layouts/Footer/Footer';
 
-const Topics = () => {
+const Home = () => {
     const topicsData = useLoaderData();
     const {data} = topicsData;
+
     return (
         <div className='topics'>
-             <h2> Select the topic you want to get quiz about.</h2>
+            <SubHeader></SubHeader>
             <div className='topics-cont'>
                 {
                     data.map(topic => <Topic
@@ -23,4 +24,4 @@ const Topics = () => {
     );
 };
 
-export default Topics;
+export default Home;

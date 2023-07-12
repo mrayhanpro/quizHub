@@ -1,34 +1,53 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './layouts/Home/Home'
 import ErrorPage from './ErrorPage/ErrorPage';
-import SubHeader from './layouts/SubHeader/SubHeader';
-import Container from './layouts/Container/Container';
-import Body from './layouts/Body/Body';
-
-
-
+import Layout from './layouts/Layout/Layout';
+import Home from './components/Home/Home';
+import Statics from './components/Statics/Statics';
+import Blogs from './components/Blogs/Blogs';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Topics from './components/Topics/Topics';
 
 const router =  createBrowserRouter([
   {
     path: '/',
-    element: <Home></Home>,
+    element: <Layout></Layout>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
-        element: <Body></Body>,
-        children: [
-          {
-            path: '/',
-            element: <Container></Container>,
-          }
-        ]
-      }
+        loader: async () => {
+          return fetch("https://openapi.programming-hero.com/api/quiz");
+        },
+        element: <Home></Home>,
+      },
+      {
+        path: '/Topics',
+        element: <Topics></Topics>,
+        loader: async () => {
+          return fetch("https://openapi.programming-hero.com/api/quiz");
+        },
+      },
+      {
+        path: '/Statics',
+        element: <Statics></Statics>,
+      },
+      {
+        path: '/Blogs',
+        element: <Blogs></Blogs>,
+      },
+      {
+        path: '/About',
+        element: <About></About>,
+      },
+      {
+        path: '/Contact',
+        element: <Contact></Contact>,
+      },
     ]
   }
 ])
-
 
 function App() { 
   return (

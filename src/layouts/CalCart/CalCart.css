@@ -1,4 +1,8 @@
 .cal-cart {
-   background-color: rgb(243, 228, 170);
-   padding: 10px;
+   background-color: rgba(208, 207, 206, 0.455);
+}
+.cal-cart h1 {
+    margin: 0;
+    background-color: aliceblue;
+    padding: 15px;
 }

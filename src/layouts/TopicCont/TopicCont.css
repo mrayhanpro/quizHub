@@ -1,12 +1,13 @@
-.topics-cont {
+.topic-cont {
     padding: 50px;
     background-color: rgba(251, 251, 150, 0.278);
     display: grid;
     grid-template-columns: auto auto;
-    gap: 100px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
+    
 }
-.topics {
-    text-align: center;
+.quiz-cont h1 {
+    margin: 0;
 }
