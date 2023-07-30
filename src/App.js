@@ -8,6 +8,8 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
+import CalCart from './layouts/CalCart/CalCart'
+import Quizes from './components/Quizes/Quizes';
 
 const router =  createBrowserRouter([
   {
@@ -21,6 +23,7 @@ const router =  createBrowserRouter([
           return fetch("https://openapi.programming-hero.com/api/quiz");
         },
         element: <Home></Home>,
+
       },
       {
         path: '/Topics',
@@ -45,8 +48,17 @@ const router =  createBrowserRouter([
         path: '/Contact',
         element: <Contact></Contact>,
       },
+      {
+        path: '/Quizes/:paramid',
+        loader: async ({params}) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.paramid}`)
+        },
+        element: <Quizes></Quizes>,
+        
+      }
     ]
-  }
+  },
+  
 ])
 
 function App() { 

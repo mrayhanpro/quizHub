@@ -1,0 +1,18 @@
+.quize-card {
+    background-color: rgba(126, 187, 239, 0.521);
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import './About.css'
+import Footer from '../../layouts/Footer/Footer';
 
 const About = () => {
     return (
         <div>
-            This is about page
+           <h1> This is about page</h1>
+           <Footer></Footer>
         </div>
     );
 };

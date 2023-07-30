@@ -1,3 +1,8 @@
+.topics {
+    text-align: center;
+    
+}
+
 .topics-cont {
     padding: 50px;
     background-color: rgba(251, 251, 150, 0.278);
@@ -7,6 +12,9 @@
     justify-content: center;
     align-items: center;
 }
-.topics {
-    text-align: center;
+
+.topics h2 {
+    background-color: rgba(250, 235, 215, 0.332);
+    margin: 0;
+    padding: 10px;
 }

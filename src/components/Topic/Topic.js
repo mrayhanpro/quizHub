@@ -1,8 +1,8 @@
 import React from 'react';
 import './Topic.css'
+import { Link } from 'react-router-dom';
 
 const Topic = ({topic}) => {
-    console.log(topic);
     return (
         <div className='topic'>
             <img src={topic.logo} alt='topic img'></img>
@@ -12,7 +12,7 @@ const Topic = ({topic}) => {
                 {topic.total} <span>Quizes</span>
             </p>
             <button className='get-quiz-btn' >
-                Get...
+                <Link to={`Quizes/${topic.id}`}>Get</Link>
             </button>
 
             </div>

@@ -39,6 +39,11 @@
 
 .get-quiz-btn:hover {
     background-color: green;
-    color: black;
+    color: white;
 
 }
+
+.topic:hover {
+    outline: 4px solid red;
+}
+
