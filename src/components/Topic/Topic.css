@@ -20,30 +20,31 @@
 
 }
 .topic-detail p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.get-quiz-btn {
+.topic a {
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 7px 20px;
     font-weight: bold;
-    background-color: rgb(190, 138, 238);
+    background-color: rgb(46, 9, 255);
     border-radius: 5px;
     font-size: 20px;
-
+    text-decoration: none;
+    color: white;
 }
 
-.get-quiz-btn:hover {
-    background-color: green;
-    color: white;
-
+.topic a:hover {
+    color: black;
+    background-color: rgb(5, 254, 5);
+    font-weight: bold;
 }
 
 .topic:hover {
-    outline: 4px solid red;
+    outline: 3px solid rgb(5, 246, 5);
 }
 

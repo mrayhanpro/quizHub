@@ -9,15 +9,23 @@
     height: 250px;
 }
 
-h3 {
+/* Styles of Quizes Container  */
+.quizes-container {
+    padding: 1%;
+}
+
+/* Styling name of the topic */
+.quizes-container h1 {
     text-align: center;
-    font-size: 50px;
+    margin: 0;
 }
 
 .quize-card-container {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto auto;
-    gap: 20px;
+    grid-template-columns: auto;
+    gap: 10px;
 }
+
+

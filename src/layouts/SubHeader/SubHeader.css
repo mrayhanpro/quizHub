@@ -1,10 +1,8 @@
 .sub-header {
-    background-image: url('../../Images/quiz\ bg.avif');
-    background-size: cover ;
-    background-color: rgba(240, 244, 242, 0.23);
-    margin: 0;
+    /* background-image: url('../../Images/quiz\ bg.avif'); */
+    background-color: rgba(19, 254, 136, 0.448);
     padding: 30px;
-    color: white;
+    color: black;
 }
 .sub-header h2 {
     margin: 0;

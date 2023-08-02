@@ -11,10 +11,9 @@ const Topic = ({topic}) => {
             <p className='ratings'>
                 {topic.total} <span>Quizes</span>
             </p>
-            <button className='get-quiz-btn' >
-                <Link to={`Quizes/${topic.id}`}>Get</Link>
-            </button>
-
+            
+                    <Link to={`Quizes/${topic.id}`}>Take ▶ </Link>
+            
             </div>
 
         </div>

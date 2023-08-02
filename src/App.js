@@ -8,7 +8,6 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
-import CalCart from './layouts/CalCart/CalCart'
 import Quizes from './components/Quizes/Quizes';
 
 const router =  createBrowserRouter([
@@ -60,6 +59,7 @@ const router =  createBrowserRouter([
   },
   
 ])
+
 
 function App() { 
   return (

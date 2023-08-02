@@ -8,10 +8,8 @@ const Quizes = () => {
     const {name, logo, questions} = loaderData.data;
 
     return (
-        <div>
-            {/* <div className='selected-topic-logo-cont'>
-                <img src={logo} alt='no img'></img>
-            </div> */}
+        <div className='quizes-container'>
+            <h1>Quizes of {name}</h1>
             <div className='quize-card-container'>
                 {questions.map(question => <QuizeCard key={questions.id} question={question}></QuizeCard>)}            
             </div>
