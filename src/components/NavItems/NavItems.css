@@ -2,7 +2,8 @@
     margin-right: 20px;
 }
 .navitems a:hover {
-  color: rgb(6, 252, 6);
+  color: white;
   text-align: center;
   padding: 10px;
+  text-shadow: 1px 1px 5px black;
 }

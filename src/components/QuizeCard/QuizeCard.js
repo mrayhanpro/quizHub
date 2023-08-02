@@ -1,7 +1,12 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 import './QuizeCard.css'
 import OptionCard from '../OptionCard/OptionCard';
 import { Link } from 'react-router-dom';
+
+
 
 const QuizeCard = ({question}) => {
 
@@ -30,7 +35,7 @@ const QuizeCard = ({question}) => {
                 </div>
             
             {/* The Answer Icon */}
-            <Link>See Ans →</Link>
+            <Link><FontAwesomeIcon icon={faEye} /></Link>
         </div>
     );
 };
