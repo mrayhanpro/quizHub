@@ -12,8 +12,7 @@ const Topic = ({topic}) => {
                 {topic.total} <span>Quizes</span>
             </p>
             
-                    <Link to={`Quizes/${topic.id}`}>Take ▶ </Link>
-            
+                <Link to={`Quizes/${topic.id}`}>Take ▶ </Link>
             </div>
 
         </div>
