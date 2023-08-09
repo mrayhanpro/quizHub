@@ -24,8 +24,9 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: auto;
-    gap: 10px;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    padding: 20px;
 }
 
 

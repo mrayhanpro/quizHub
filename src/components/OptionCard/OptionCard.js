@@ -7,7 +7,7 @@ const OptionCard = ({option}) => {
             {/* <div className='tick-div'>
                 <h5>X</h5>
             </div> */}
-            <li>{option}</li>
+            <h6>{option}</h6>
         </div>
     );
 };

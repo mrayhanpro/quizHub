@@ -1,20 +1,21 @@
 /* Styling quiz-card */
 .quize-card {
     background-color: rgba(126, 186, 239, 0.275);
-    width: 700px;
-    height: 270px;
+    width: 600px;
+    height: 300px;
     border: 1px solid black;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px black;
-    padding: 25px;
+    padding: 10px;
     position: relative;
 }
 .quize-card h3 {
-    text-align: left;
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 20px;
 }
 
 /* Managing quize's option's container */
@@ -24,6 +25,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  
    
 }
 

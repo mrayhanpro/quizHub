@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
 import Quizes from './components/Quizes/Quizes';
+import { createContext, useState } from 'react';
 
 const router =  createBrowserRouter([
   {
@@ -26,16 +27,17 @@ const router =  createBrowserRouter([
       },
       {
         path: '/Topics',
-        element: <Topics></Topics>,
         loader: async ({params}) => {
-          return fetch(`https://openapi.programming-hero.com/api/quiz/${params.paramid}`)
+          return fetch(`https://openapi.programming-hero.com/api/quiz`)
         },
+        element: <Topics></Topics>,
       },
       {
         path: '/Statics',
         element: <Statics></Statics>,
       },
       {
+        
         path: '/Blogs',
         element: <Blogs></Blogs>,
       },
@@ -54,17 +56,30 @@ const router =  createBrowserRouter([
         },
         element: <Quizes></Quizes>,
         
+      },
+      {
+        path: 'Topics/Quizes/:paramid',
+        loader: async ({params}) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.paramid}`)
+        },
+        element: <Quizes></Quizes>,
+        
       }
     ]
   },
   
 ])
 
+export const dataContext = createContext(1);
 
 function App() { 
+    const [data, setData] = useState([])
+
   return (
     <div className="App">
-      <RouterProvider router={router}></RouterProvider>
+      <dataContext.Provider value={data}>
+          <RouterProvider router={router}></RouterProvider>
+      </dataContext.Provider>
     </div>
   );
 }
