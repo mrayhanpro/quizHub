@@ -62,8 +62,7 @@ const router =  createBrowserRouter([
         loader: async ({params}) => {
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.paramid}`)
         },
-        element: <Quizes></Quizes>,
-        
+        element: <Quizes></Quizes>, 
       }
     ]
   },
@@ -73,13 +72,10 @@ const router =  createBrowserRouter([
 export const dataContext = createContext(1);
 
 function App() { 
-    const [data, setData] = useState([])
 
   return (
     <div className="App">
-      <dataContext.Provider value={data}>
           <RouterProvider router={router}></RouterProvider>
-      </dataContext.Provider>
     </div>
   );
 }
