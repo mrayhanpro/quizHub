@@ -1,11 +1,12 @@
 import React from 'react';
 import './Blogs.css'
 import Footer from '../../layouts/Footer/Footer';
+import Blog from '../Blog/Blog';
 
 const Blogs = () => {
     return (
         <div>
-            This is blog page.
+            <Blog></Blog>
             <Footer></Footer>
         </div>
     );

@@ -9,7 +9,6 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
 import Quizes from './components/Quizes/Quizes';
-import { createContext, useState } from 'react';
 
 const router =  createBrowserRouter([
   {
@@ -69,7 +68,6 @@ const router =  createBrowserRouter([
   
 ])
 
-export const dataContext = createContext(1);
 
 function App() { 
 
