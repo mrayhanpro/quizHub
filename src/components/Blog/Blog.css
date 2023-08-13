@@ -3,18 +3,17 @@
     color: white;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 5px;
-    width: 400px;
-    height: 500px;
+    padding: 10px;
+    width: 350px;
+    height: 470px;
     text-align: left;
     margin: 25px;
 }
 
 .blog img {
     width: 99%;
-    height: 70%;
+    height: 60%;
     border-radius: 10px; 
-   
 }
 
 #blog-img-caption {
@@ -23,20 +22,52 @@
     padding: 0px 5px;
 }
 
+.question-container {
+    margin: 0px 0px 0px 5px;
+}
+
+
 .blog h3 {
-    padding: 0px 5px;
-    margin: 0;
-    color: crimson;
+    color: white;
     font-size: 25px;
     text-align: left;
+    display: inline;
 }
+
 
 .blog-details {
     margin: 0;
     display: flex;
     justify-content: space-around;
-    align-items: left;
+    align-items: center;
     padding: 0px 5px;
 
+    
 }
 
+.blog-details h5 {
+    margin: 0;
+    color: rgb(238, 238, 89);
+    padding-top: 5px;
+}
+
+.blog-details p {
+    margin: 2px 0px 10px 10px;
+}
+
+.blog button {
+    width: 99%;
+    background-color: rgb(12, 141, 141);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.blog button:hover {
+    background-color: blue;
+}
+
+.blog a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}

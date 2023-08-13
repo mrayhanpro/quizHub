@@ -7,7 +7,10 @@ const Blogs = () => {
     return (
         <div>
             <Blog></Blog>
-            <Footer></Footer>
+
+            <div className='footer'>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };
