@@ -1,6 +1,5 @@
-
-{
-    "q1" : { 
+[
+    {
         "Id" : "01",
         "Topic": "React Router",
         "imageCaption": "React router imgage",
@@ -9,10 +8,54 @@
         "author" : "M Rayhan",
         "readTime" : "6 min",
         "published" : "13/08/2023"
-    
+        
+    },
+    { 
+        "Id" : "01",
+        "Topic": "React Router",
+        "imageCaption": "React router imgage",
+        "question" : "What is the purpose of react router?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
+        "author" : "M Rayhan",
+        "readTime" : "6 min",
+        "published" : "13/08/2023"
+        
+    },
+    { 
+        "Id" : "01",
+        "Topic": "React Router",
+        "imageCaption": "React router imgage",
+        "question" : "What is the purpose of react router?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
+        "author" : "M Rayhan",
+        "readTime" : "6 min",
+        "published" : "13/08/2023"
+        
+    },
+    { 
+        "Id" : "01",
+        "Topic": "React Router",
+        "imageCaption": "React router imgage",
+        "question" : "What is the purpose of react router?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
+        "author" : "M Rayhan",
+        "readTime" : "6 min",
+        "published" : "13/08/2023"
+        
+    },
+    { 
+        "Id" : "01",
+        "Topic": "React Router",
+        "imageCaption": "React router imgage",
+        "question" : "What is the purpose of react router?",
+        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
+        "author" : "M Rayhan",
+        "readTime" : "6 min",
+        "published" : "13/08/2023"
+        
     },
 
-    "q2" : { 
+    { 
         "Id" : "01",
         "Topic": "React Router",
         "imageCaption": "React router imgage",
@@ -21,54 +64,6 @@
         "author" : "M Rayhan",
         "readTime" : "6 min",
         "published" : "13/08/2023"
-    
-    },
-
-    "q3" : { 
-        "Id" : "01",
-        "Topic": "React Router",
-        "imageCaption": "React router imgage",
-        "question" : "What is the purpose of react router?",
-        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
-        "author" : "M Rayhan",
-        "readTime" : "6 min",
-        "published" : "13/08/2023"
-    
-    },
-
-    "q4" : { 
-        "Id" : "01",
-        "Topic": "React Router",
-        "imageCaption": "React router imgage",
-        "question" : "What is the purpose of react router?",
-        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
-        "author" : "M Rayhan",
-        "readTime" : "6 min",
-        "published" : "13/08/2023"
-    
-    },
-
-    "q5" : { 
-        "Id" : "01",
-        "Topic": "React Router",
-        "imageCaption": "React router imgage",
-        "question" : "What is the purpose of react router?",
-        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
-        "author" : "M Rayhan",
-        "readTime" : "6 min",
-        "published" : "13/08/2023"
-    
-    },
-
-    "q6" : { 
-        "Id" : "01",
-        "Topic": "React Router",
-        "imageCaption": "React router imgage",
-        "question" : "What is the purpose of react router?",
-        "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
-        "author" : "M Rayhan",
-        "readTime" : "6 min",
-        "published" : "13/08/2023"
-    
+        
     }
-}
+]

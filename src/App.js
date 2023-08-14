@@ -9,7 +9,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
 import Quizes from './components/Quizes/Quizes';
-import blogsData from '../src/Utilities/BlogsData.json'
+
 
 const router =  createBrowserRouter([
   {
@@ -37,11 +37,7 @@ const router =  createBrowserRouter([
         element: <Statics></Statics>,
       },
       {
-        
         path: '/Blogs',
-        loader: async () => {
-          return fetch(blogsData)
-        },
         element: <Blogs></Blogs>,
       },
       {
