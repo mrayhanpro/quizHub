@@ -1,11 +1,9 @@
-import React, { useState, } from 'react';
+import React from 'react';
 import './Contact.css'
 import Footer from '../../layouts/Footer/Footer';
 
 
 const Contact = () => {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("")
 
     return (
         <div className='contact-page'>
@@ -23,43 +21,12 @@ const Contact = () => {
                     <label for="number"> Your phone:</label>
                     <input type="number" id="number" name="number" placeholder='+8801755555555'/><br/>
 
-                    <textarea placeholder='Write your messege here' id='messege' name='messege'></textarea> <br/>
+                    <textarea placeholder='Write your messege here...' id='messege' name='messege'></textarea> <br/>
 
                     <input type="submit" value="Submit"/>
                     <input type="reset"/>
                 </form>
             </div>
-
-
-
-            
-            {/* <form>
-                <label>Entername: <br/>
-                    <input 
-                        type="text" 
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                </label><br></br><br></br>
-                <label>Enter your E-Mail:  <br/> 
-                    <input 
-                        type="text" 
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </label>
-                <label>type your messege:  <br/> 
-                    <input 
-                        type=""
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        width={20}
-                        height={20}
-                    />
-                </label>
-            </form> */}
-     
-
             <Footer></Footer>
         </div>
     );

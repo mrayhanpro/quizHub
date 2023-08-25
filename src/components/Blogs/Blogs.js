@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Blogs.css'
 import Footer from '../../layouts/Footer/Footer';
 import Datas from '../../Utilities/Utilities.json';
