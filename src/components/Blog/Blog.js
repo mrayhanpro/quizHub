@@ -3,7 +3,8 @@ import './Blog.css'
 import blogImage from './reactRouter.jpg';
 import { Link } from 'react-router-dom';
 
-const Blog = () => {
+const Blog = ({data}) => {
+    console.log(data);
     return (
         <div className='blog'>
             <img src={blogImage} alt='Blog img not found'></img>
@@ -26,7 +27,7 @@ const Blog = () => {
                     <p>10/05/2023</p>
                 </div>
             </div>
-            <button><Link>Learn...</Link></button>
+            <button><Link>Read...</Link></button>
         </div>
     );
 };

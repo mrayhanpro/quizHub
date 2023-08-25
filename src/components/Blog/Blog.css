@@ -8,12 +8,14 @@
     height: 470px;
     text-align: left;
     margin: 25px;
+    box-shadow: 0px 0px 5px 1px blue;
 }
 
 .blog img {
     width: 99%;
     height: 60%;
     border-radius: 10px; 
+    box-shadow: 0px 0px 20px 1px blue;
 }
 
 #blog-img-caption {
@@ -59,7 +61,7 @@
     width: 99%;
     background-color: rgb(12, 141, 141);
     border-radius: 5px;
-    box-shadow: 0px 0px 1px 1px black;
+    box-shadow: 0px 0px 5px 1px white;
 }
 
 .blog button:hover {

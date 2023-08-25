@@ -38,9 +38,6 @@ const router =  createBrowserRouter([
       },
       {
         path: '/Blogs',
-        loader: async () => {
-          return fetch('./components/Blogs/Utilities.json')
-        },
         element: <Blogs></Blogs>,
       },
       {
