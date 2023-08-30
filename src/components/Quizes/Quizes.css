@@ -10,8 +10,11 @@
 }
 
 /* Styles of Quizes Container  */
-.quizes-container {
-    padding: 1%;
+
+
+.quize-and-stats-component-container {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 /* Styling name of the topic */
@@ -21,12 +24,12 @@
 }
 
 .quize-card-container {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: auto;
-    gap: 50px;
+    text-align: center;
     padding: 20px;
+    margin: 0 auto ;
+
+
 }
+
 
 

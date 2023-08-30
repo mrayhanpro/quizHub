@@ -7,7 +7,10 @@ import { Link } from 'react-router-dom';
 
 
 
+
+
 const QuizeCard = ({question}) => {
+
 
     //The question as props destructuring:
         const { options, id} = question;
@@ -23,7 +26,7 @@ const QuizeCard = ({question}) => {
 
 
     return (
-        <div className='quize-card'>
+        <div className='quize-card' >
             
             {/* The questions */}
                 <h3>Quiz {questionNumber}: {pTagRemovedQuestion}</h3>
