@@ -1,11 +1,11 @@
 .stats {
-    background-color: rgb(156, 186, 245);
-    height: 100%;
-    position: fixed;
-    padding: 25px;
-    width: 100%;
-    margin: 0;
-
-
+    background-color: rgb(219, 249, 182);
+    position: sticky;
+    padding: 10px;
+    width: 400px;
+    height: 97vh;
+    top: 0;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px blanchedalmond;
 
 }

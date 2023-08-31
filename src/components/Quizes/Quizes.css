@@ -15,6 +15,7 @@
 .quize-and-stats-component-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-around;
 }
 
 /* Styling name of the topic */
