@@ -9,6 +9,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
 import Quizes from './components/Quizes/Quizes';
+import Blog from './components/Blog/Blog'
 
 
 const router =  createBrowserRouter([
@@ -62,6 +63,10 @@ const router =  createBrowserRouter([
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.paramid}`)
         },
         element: <Quizes></Quizes>, 
+      },
+      {
+        path: '/Blogs/Blog',
+        element: <Blog></Blog>
       }
     ]
   },

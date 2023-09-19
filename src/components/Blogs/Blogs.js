@@ -1,8 +1,8 @@
 import React from 'react';
-import './Blogs.css'
-import Footer from '../../layouts/Footer/Footer';
+import './Blogs.css';
 import Datas from '../../Utilities/Utilities.json';
-import Blog from '../Blog/Blog';
+import Footer from '../../layouts/Footer/Footer';
+import BlogCard from '../BlogCard/BlogCard';
 
 
 
@@ -13,7 +13,7 @@ const Blogs = () => {
         <div>
             <div className='blogs-cards-container'>
                 {
-                    Datas.map(data => <Blog key={data.id} data={data}></Blog>)
+                    Datas.map(data => <BlogCard key={data.id} data={data}></BlogCard>)
                 }
             </div>
             <div className='footer'>

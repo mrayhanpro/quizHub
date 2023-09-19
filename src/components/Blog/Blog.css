@@ -1,75 +1,20 @@
-.blog {
-    background-color: rgb(41, 40, 40);
-    color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    width: 350px;
-    height: 470px;
-    text-align: left;
-    margin: 25px;
-    box-shadow: 0px 0px 5px 1px blue;
+/* Style for main contaner */
+#blog {
+    /* fjdkk */
 }
 
-.blog img {
-    width: 99%;
-    height: 60%;
-    border-radius: 10px; 
-    box-shadow: 0px 0px 20px 1px blue;
+
+/* Style for blog container */
+
+#blog-container {
+   
+    background-color: lightgreen;
+    padding: 50px;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
 
-#blog-img-caption {
+#blog-container h3, h5 {
     margin: 0;
-    text-align: left;
-    padding: 0px 5px;
-}
-
-.question-container {
-    margin: 0px 0px 0px 5px;
-}
-
-
-.blog h3 {
-    color: white;
-    font-size: 25px;
-    text-align: left;
-    display: inline;
-}
-
-
-.blog-details {
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0px 5px;
-
-    
-}
-
-.blog-details h5 {
-    margin: 0;
-    color: rgb(238, 238, 89);
-    padding-top: 5px;
-}
-
-.blog-details p {
-    margin: 2px 0px 10px 10px;
-}
-
-.blog button {
-    width: 99%;
-    background-color: rgb(12, 141, 141);
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 1px white;
-}
-
-.blog button:hover {
-    background-color: blue;
-}
-
-.blog a {
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
 }

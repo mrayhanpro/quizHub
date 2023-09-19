@@ -9,9 +9,6 @@ const totaldata = [
     { name: 'Total Quizes', Quantity: 36 },
   ];
 
-  
-
-
 //  Second chart code
 const data = [
     {Topic: 'React', TotalQuizes: 8, },
@@ -33,7 +30,6 @@ const getPath = (x, y, width, height) => {
     return <path d={getPath(x, y, width, height)} stroke="none" fill={fill} />;
   };
   
-
 const Statics = () => {
     return (
         <div className='statics'>
