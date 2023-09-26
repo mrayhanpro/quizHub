@@ -1,18 +1,16 @@
-/* Style for main contaner */
-#blog {
-    /* fjdkk */
+/* Style for blog container and blog-containers-container */
+#blog-containers-container {
+    padding: 50px;
 }
 
-
-/* Style for blog container */
-
 #blog-container {
-   
-    background-color: lightgreen;
+    background-color: rgb(212, 243, 212);
     padding: 50px;
-    height: 100%;
-    width: 50%;
+    height: 700px;
+    width: 40%;
     margin: 0 auto;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 #blog-container h3, h5 {

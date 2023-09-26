@@ -15,3 +15,7 @@
 .option-card:hover {
     background-color: rgba(0, 253, 0, 0.829);
 }
+
+.foo-bar {
+    background-color: yellow;
+}
