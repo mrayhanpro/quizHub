@@ -1,13 +1,14 @@
 import React from 'react';
 import './Blogs.css';
-import Datas from '../../Utilities/Utilities.json';
 import Footer from '../../layouts/Footer/Footer';
 import BlogCard from '../BlogCard/BlogCard';
+import Datas from '../../blogData.json'
 
 
 
 
 const Blogs = () => {
+console.log(Datas);
 
     return (
         <div>

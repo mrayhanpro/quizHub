@@ -48,12 +48,8 @@
 }
 
 .foo-bar {
-    width: 400px;
-    height: 400px;
     text-align: center;
-    padding: 25px;
-    margin-right: 25px;
-    background: yellow;
+    margin-right: 50px;
 
 }
 

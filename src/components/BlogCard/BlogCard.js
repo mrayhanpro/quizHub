@@ -1,31 +1,34 @@
 import React from 'react';
 import './BlogCard.css'
-import blogImage from './reactRouter.jpg';
 import { Link } from 'react-router-dom';
 
 const BlogCard = ({data}) => {
+    console.log(data);
+    const { Id, img, imageCaption, Topic, author, answer, published, readTime, question,  } = data ;
+    console.log(imageCaption);
+
     return (
         <div className='blog-card'>
 
-            <img src={blogImage} alt='Blog img not found'></img>
-            <p id='blog-img-caption'>Image: React Router</p>
+            <img src={img} alt='Blog img not found'></img>
+            <p id='blog-img-caption'>Image: {imageCaption}</p>
             
             <div className='question-container'>
-                <h3>What is the purpose of react router?</h3>       
+                <h3>{question}</h3>       
             </div>
 
             <div className='blog-details'>
                     <div>
                         <h5>Athour:</h5>
-                        <p> Willium hams</p>
+                        <p>{author}</p>
                     </div>
                     <div>
                         <h5>Published:</h5>
-                        <p>10/05/2023</p>
+                        <p> {published} </p>
                     </div>
                     <div>
                         <h5>ReadTime:</h5>
-                        <p> 7.5 mins</p>
+                        <p>{readTime} </p>
                     </div>
             </div>
             <Link to="Blog">Read...</Link>          
