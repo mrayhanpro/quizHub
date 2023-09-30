@@ -3,9 +3,7 @@ import './BlogCard.css'
 import { Link } from 'react-router-dom';
 
 const BlogCard = ({data}) => {
-    console.log(data);
     const { Id, img, imageCaption, Topic, author, answer, published, readTime, question,  } = data ;
-    console.log(imageCaption);
 
     return (
         <div className='blog-card'>

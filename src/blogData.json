@@ -2,7 +2,7 @@
     {
         "Id" : "01",
         "Topic": "React Router",
-        "img": "reactRouter.jpg",
+        "img": "images/reactRouter.jpg",
         "imageCaption": "React router imgage",
         "question" : "What is the purpose of react router?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
@@ -14,7 +14,7 @@
     { 
         "Id" : "02",
         "Topic": "Context API",
-        "img": "reactContextAPI.jpg",
+        "img": "images/reactContextAPI.jpg",
         "imageCaption": "React router imgage",
         "question" : "How does context API works?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
@@ -26,7 +26,7 @@
     { 
         "Id" : "03",
         "Topic": "React Router Hook: useRef",
-        "img": "reactRouterUseRef.jpg",
+        "img": "images/reactRouterUseRef.jpg",
         "imageCaption": "React router imgage",
         "question" : "What is the uses of 'useRef' hook?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
@@ -38,7 +38,7 @@
     { 
         "Id" : "04",
         "Topic": "React router loader",
-        "img": "reactRouterLoader.jpg",
+        "img": "images/reactRouterLoaderFunction.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to fetch data from a json file using react router loader hook?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
@@ -50,7 +50,7 @@
     { 
         "Id" : "05",
         "Topic": "React router loader",
-        "img": "reactRouterLoader.jpg",
+        "img": "images/reactRouterLoaderFunction.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to fetch data from an external API using react router loader hook?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
@@ -63,7 +63,7 @@
     { 
         "Id" : "06",
         "Topic": "Resposive web design",
-        "img": "responsiveWebDesign.jpg",
+        "img": "images/responsiveWebDesign.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to make a webpage responsive?",
         "answer" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis, metus a lacinia tristique, arcu ex rhoncus arcu, eu pellentesque felis felis ac urna. Phasellus et mauris lobortis, feugiat ipsum in, vehicula orci. Aenean egestas bibendum justo sed pretium. Nullam vitae mi eu eros scelerisque tempor. Donec sapien erat, ultricies sagittis augue sed, dignissim imperdiet enim. Ut vel facilisis nisi. Duis sed tellus eu augue feugiat luctus nec vitae dui. Nulla sollicitudin sed ipsum non pharetra. Praesent egestas ut lacus ac auctor. Curabitur nec auctor libero. Maecenas id turpis nibh. Integer sollicitudin erat ut turpis venenatis molestie. Nullam placerat vel purus et tempus. Nulla sagittis, nunc eu dictum bibendum, risus justo vulputate magna, vitae ultrices nibh enim id eros. Vivamus ullamcorper eget quam nec scelerisque.",
