@@ -1,29 +1,36 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Blog.css'
-import Footer from '../../layouts/Footer/Footer';
-import blogDatas from '../../blogData.json'
+import { Link } from 'react-router-dom';
 
 
-const Blog = () => {
-    const [blogData, setBlogData] = useState([])
-    useEffect( () => {
-        blogDatas.map( blogData => setBlogData(blogData));
-    }, [blogData])
-
-    console.log(blogData);
+const Blog = ({data}) => {
+    console.log(data);
+    const {id,  img, imageCaption, author, published, readTime, question,  } = data ;
     return (
         <div id='blog'>
-           <div id='blog-containers-container'>
-           <div id='blog-container'>
-                <h3>What is the purpose of react router?</h3>
-                <p>The Router in React JS is a pure JavaScript package that allows you to use React to create complicated client-side apps. Initially launched in 2013, it has become one of the most prominent routing libraries in today's online applications. React Router makes it simple to manage the URL and state of your application. You specify all of the potential URL patterns in your app and which UI component should be displayed for each one using React Router. This Router decreases the amount of code an app requires to maintain its state and makes adding new features more accessible.Although there are significant differences, React may use a router on both the server and the browser.<br/><br/><br/>  
-                We will need to utilize Router in React JS to create a React application with navigation across multiple pages. React Router is a JavaScript framework that lets us handle client and server-side routing in React applications. It enables the creation of single-page web or mobile apps that allow navigating without refreshing the page. It also allows us to use browser history features while preserving the right application view. A Router in React JS routes using a component-based architecture. It offers various routing components as required by the application. If you wish to learn more about its applications, check out this blog: Navigate React Router programmatically.</p>
-                <h5>The conclusion</h5>
-           </div>
-           </div>
-           <div id='footer'>
-                <Footer></Footer>
-           </div>
+           <img src={img} alt='Blog img not found'></img>
+            <p id='blog-img-caption'>Image: {imageCaption}</p>
+            
+            <div className='question-container'>
+                <h3>{question}</h3>       
+            </div>
+
+            <div className='blog-details'>
+                    <div>
+                        <h5>Athour:</h5>
+                        <p>{author}</p>
+                    </div>
+                    <div>
+                        <h5>Published:</h5>
+                        <p> {published} </p>
+                    </div>
+                    <div>
+                        <h5>ReadTime:</h5>
+                        <p>{readTime} </p>
+                    </div>
+            </div>
+            
+            <Link to="DetailedBlog">Read...</Link> 
         </div>
     );
 };

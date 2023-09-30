@@ -1,7 +1,7 @@
 [
     {
-        "Id" : "01",
-        "Topic": "React Router",
+        "id" : "01",
+        "topic": "React Router",
         "img": "images/reactRouter.jpg",
         "imageCaption": "React router imgage",
         "question" : "What is the purpose of react router?",
@@ -12,8 +12,8 @@
         
     },
     { 
-        "Id" : "02",
-        "Topic": "Context API",
+        "id" : "02",
+        "topic": "Context API",
         "img": "images/reactContextAPI.jpg",
         "imageCaption": "React router imgage",
         "question" : "How does context API works?",
@@ -24,8 +24,8 @@
         
     },
     { 
-        "Id" : "03",
-        "Topic": "React Router Hook: useRef",
+        "id" : "03",
+        "topic": "React Router Hook: useRef",
         "img": "images/reactRouterUseRef.jpg",
         "imageCaption": "React router imgage",
         "question" : "What is the uses of 'useRef' hook?",
@@ -36,8 +36,8 @@
         
     },
     { 
-        "Id" : "04",
-        "Topic": "React router loader",
+        "id" : "04",
+        "topic": "React router loader",
         "img": "images/reactRouterLoaderFunction.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to fetch data from a json file using react router loader hook?",
@@ -48,8 +48,8 @@
         
     },
     { 
-        "Id" : "05",
-        "Topic": "React router loader",
+        "id" : "05",
+        "topic": "React router loader",
         "img": "images/reactRouterLoaderFunction.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to fetch data from an external API using react router loader hook?",
@@ -61,8 +61,8 @@
     },
 
     { 
-        "Id" : "06",
-        "Topic": "Resposive web design",
+        "id" : "06",
+        "topic": "Resposive web design",
         "img": "images/responsiveWebDesign.jpg",
         "imageCaption": "React router imgage",
         "question" : "How to make a webpage responsive?",

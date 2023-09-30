@@ -1,18 +1,74 @@
 /* Style for blog container and blog-containers-container */
-#blog-containers-container {
-    padding: 50px;
-}
-
-#blog-container {
-    background-color: rgb(212, 243, 212);
-    padding: 50px;
-    height: 700px;
-    width: 40%;
-    margin: 0 auto;
-    font-size: 18px;
+#blog {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: 1px solid white;
     border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+    text-align: left;
+    margin: 25px;
+    box-shadow: 0px 0px 5px 1px blue;
 }
 
-#blog-container h3, h5 {
+#blog img {
+    width: 99%;
+    height: 60%;    
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px 1px blue;
+}
+
+#blog-img-caption {
     margin: 0;
+    text-align: left;
+    padding: 0px 5px;
+}
+
+.question-container {
+    margin: 0px 0px 0px 5px;
+}
+
+
+.question-container h3 {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+}
+
+.blog-details {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.blog-details h5 {
+    margin: 0;
+    color: rgb(238, 238, 89);
+    padding-top: 5px;
+}
+
+.blog-details p {
+    margin: 2px 0px 10px 10px;
+}
+
+#blog a {
+    display: block;
+    padding: 0px 10px;
+    background-color: rgb(4, 194, 83);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px black;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    width: 95%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#blog a:hover {
+    background-color: rgb(39, 39, 239);
 }

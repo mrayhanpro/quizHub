@@ -9,8 +9,9 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Topics from './components/Topics/Topics';
 import Quizes from './components/Quizes/Quizes';
-import Blog from './components/Blog/Blog'
+import DetailedBlog from './components/DetailedBlog/DetailedBlog';
 import blogData from './blogData.json';
+
 
 
 const router =  createBrowserRouter([
@@ -41,7 +42,7 @@ const router =  createBrowserRouter([
       {
         path: '/Blogs',
         loader: async () => {
-          return fetch(blogData)
+          return blogData
         },
         element: <Blogs></Blogs>,
       },
@@ -70,8 +71,8 @@ const router =  createBrowserRouter([
         element: <Quizes></Quizes>, 
       },
       {
-        path: '/Blogs/Blog',
-        element: <Blog></Blog>
+        path: '/Blogs/DetailedBlog',
+        element: <DetailedBlog></DetailedBlog>
       },
 
     ]
