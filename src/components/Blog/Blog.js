@@ -30,7 +30,7 @@ const Blog = ({data}) => {
                     </div>
             </div>
             
-            <Link to="DetailedBlog">Read...</Link> 
+            <Link to={`Blog/${id}`}>Read...</Link> 
         </div>
     );
 };

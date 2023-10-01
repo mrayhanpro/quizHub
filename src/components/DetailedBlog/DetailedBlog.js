@@ -1,8 +1,12 @@
 import React from 'react';
 import Footer from '../../layouts/Footer/Footer';
 import './DetailedBlog.css'
+import { useLoaderData } from 'react-router-dom';
 
-const detailedBlog = () => {
+const DetailedBlog = () => {
+    const blogDatas = useLoaderData() ;
+    const {blogData, paramid} = blogDatas;
+    console.log(blogData, paramid);
     return (
         <div>
             <div id='blog-containers-container'>
@@ -20,4 +24,4 @@ const detailedBlog = () => {
     );
 };
 
-export default detailedBlog;
+export default DetailedBlog;

@@ -71,7 +71,11 @@ const router =  createBrowserRouter([
         element: <Quizes></Quizes>, 
       },
       {
-        path: '/Blogs/DetailedBlog',
+        path: '/Blogs/Blog/:paramid',
+        loader: async ({params}) => {
+          const paramid = params.paramid
+          return {blogData, paramid}
+        },
         element: <DetailedBlog></DetailedBlog>
       },
 
