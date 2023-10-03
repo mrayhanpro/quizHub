@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 
 const Blog = ({data}) => {
-    console.log(data);
-    const {id,  img, imageCaption, author, published, readTime, question,  } = data ;
+    const {id,  img, imageCaption, author, published, readTime, question} = data ;
+
     return (
         <div id='blog'>
            <img src={img} alt='Blog img not found'></img>
