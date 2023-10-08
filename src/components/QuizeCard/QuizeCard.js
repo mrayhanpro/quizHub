@@ -4,6 +4,8 @@ import { faEye } from '@fortawesome/free-solid-svg-icons'
 import './QuizeCard.css'
 import OptionCard from '../OptionCard/OptionCard';
 import { Link } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -24,6 +26,13 @@ const QuizeCard = ({question}) => {
         const seperatedQuestionNumberFromId = id.slice(-1);
         const questionNumber = +seperatedQuestionNumberFromId + 1;
 
+    // handleSeeAnswerIconClick code.
+        const notify = (data) => toast(data);
+    const handleSeeAnswerIconClick = () => {
+        console.log("It's working very well");
+        console.log(question.correctAnswer);
+        notify(question.correctAnswer)
+    }
 
     return (
         <div className='quize-card' >
@@ -37,7 +46,7 @@ const QuizeCard = ({question}) => {
                 </div>
             
             {/* The Answer Icon */}
-            <Link><FontAwesomeIcon icon={faEye} /></Link>
+            <Link onClick={handleSeeAnswerIconClick}><FontAwesomeIcon icon={faEye} /></Link>
         </div>
     );
 };
