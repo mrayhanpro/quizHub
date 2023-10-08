@@ -1,6 +1,6 @@
 .blogs-cards-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
 
