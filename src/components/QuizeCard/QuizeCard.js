@@ -6,16 +6,15 @@ import OptionCard from '../OptionCard/OptionCard';
 import { Link } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { icon } from '@fortawesome/fontawesome-svg-core';
 
 
 
 
 
 const QuizeCard = ({question}) => {
-
-
     //The question as props destructuring:
-        const { options, id} = question;
+        const { options, id, correctAnswer} = question;
 
     // removing <p></p> tag from the question
         const unSplitedQuestion = question.question;
@@ -27,22 +26,33 @@ const QuizeCard = ({question}) => {
         const questionNumber = +seperatedQuestionNumberFromId + 1;
 
     // handleSeeAnswerIconClick code.
-        const notify = (data) => toast(data);
-    const handleSeeAnswerIconClick = () => {
-        console.log("It's working very well");
-        console.log(question.correctAnswer);
-        notify(question.correctAnswer)
-    }
+        const toastId = React.useRef(null);
+        const notify = (data) => {
+            if(! toast.isActive(toastId.current)){
+                toastId.current = toast.success(data, {
+                    autoClose: 2000,
+                    position: 'bottom-right',
+                    closeOnClick: true,
+                    closeButton: false
+                   
+                });
+            }
+        };
+        const handleSeeAnswerIconClick = () => {
+            notify(question.correctAnswer, {
+                icon: false
+            })
+        }
 
     return (
         <div className='quize-card' >
-            
+            <ToastContainer></ToastContainer>
             {/* The questions */}
                 <h3>Quiz {questionNumber}: {pTagRemovedQuestion}</h3>
 
             {/* The options */}
                 <div className='options-container'>
-                    {options.map((option, idx)=> <OptionCard key={idx} option={option}></OptionCard>)}
+                    {options.map((option, idx)=> <OptionCard key={idx} datas={[option, correctAnswer, id]}></OptionCard>)}
                 </div>
             
             {/* The Answer Icon */}
