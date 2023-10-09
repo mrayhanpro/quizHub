@@ -16,6 +16,10 @@
     background-color: rgba(0, 253, 0, 0.829);
 }
 
-.foo-bar {
+.right-answer {
     background-color: yellow;
+}
+
+.wrong-answer {
+
 }

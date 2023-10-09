@@ -6,7 +6,6 @@ import OptionCard from '../OptionCard/OptionCard';
 import { Link } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { icon } from '@fortawesome/fontawesome-svg-core';
 
 
 
@@ -32,14 +31,12 @@ const QuizeCard = ({question}) => {
                 toastId.current = toast.success(data, {
                     autoClose: 2000,
                     position: 'bottom-right',
-                    closeOnClick: true,
-                    closeButton: false
                    
                 });
             }
         };
         const handleSeeAnswerIconClick = () => {
-            notify(question.correctAnswer, {
+            notify(`The answer is => "${question.correctAnswer}" <=`, {
                 icon: false
             })
         }
