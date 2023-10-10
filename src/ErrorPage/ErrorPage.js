@@ -6,7 +6,7 @@ const ErrorPage = () => {
         <div className='errorPage'>
             <p>
                 <span style={{fontSize: '50px'}}>Ops!</span>
-            Mey be there is something wrong. Try to debug please! 
+                Mey be there is something wrong.<br/> Try to debug please! 
             </p> 
         </div>
     );
