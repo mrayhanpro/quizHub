@@ -3,8 +3,11 @@ import React from 'react';
 
 const ErrorPage = () => {
     return (
-        <div>
-            Ops. Mey be there is something wrong.
+        <div className='errorPage'>
+            <p>
+                <span style={{fontSize: '50px'}}>Ops!</span>
+            Mey be there is something wrong. Try to debug please! 
+            </p> 
         </div>
     );
 };

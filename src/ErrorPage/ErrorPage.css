@@ -1,0 +1,26 @@
+.errorPage {
+    border-radius: 10px;
+    background-color: lightcoral;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    
+
+}
+.errorPage p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column;
+}

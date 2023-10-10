@@ -13,10 +13,7 @@ const Blogs = () => {
             <div className='blogs-cards-container'>
                 {datas.map(data => <Blog key={data.id} data={data}></Blog>)}
             </div>
-   
             <Footer></Footer>
-         
-   
         </div>
     );
 };
