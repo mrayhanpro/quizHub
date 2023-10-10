@@ -2,9 +2,7 @@ import React from 'react';
 import './Contact.css'
 import Footer from '../../layouts/Footer/Footer';
 
-
 const Contact = () => {
-
     return (
         <div className='contact-page'>
             <h1>Get In Touch!</h1>
@@ -19,7 +17,7 @@ const Contact = () => {
                     <input type="email" id="email" name="email" placeholder='example@gmail.com'/><br/>
 
                     <label for="number"> Your phone:</label>
-                    <input type="number" id="number" name="number" placeholder='+8801755555555'/><br/>
+                    <input type="number" id="number" name="number" placeholder='+8801xxxxxxxxx'/><br/>
 
                     <textarea placeholder='Write your messege here...' id='messege' name='messege'></textarea> <br/>
 

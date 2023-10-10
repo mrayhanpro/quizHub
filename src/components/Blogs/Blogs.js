@@ -4,10 +4,6 @@ import Footer from '../../layouts/Footer/Footer';
 import Blog from '../Blog/Blog';
 import { useLoaderData } from 'react-router-dom';
 
-
-
-
-
 const Blogs = () => {
     // receive the loaded data:
     const datas = useLoaderData();
@@ -17,10 +13,10 @@ const Blogs = () => {
             <div className='blogs-cards-container'>
                 {datas.map(data => <Blog key={data.id} data={data}></Blog>)}
             </div>
-
-            <div className='footer'>
-                <Footer></Footer>
-            </div>
+   
+            <Footer></Footer>
+         
+   
         </div>
     );
 };

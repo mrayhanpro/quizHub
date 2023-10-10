@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 
 
 const Blog = ({data}) => {
+    // Destructuring the nessecery datas:
     const {id,  img, imageCaption, author, published, readTime, question} = data ;
 
     return (
         <div id='blog'>
-           <img src={img} alt='Blog img not found'></img>
+            <img src={img} alt='Blog img not found'></img>
             <p id='blog-img-caption'>Image: {imageCaption}</p>
-            
+                
             <div className='question-container'>
                 <h3>{question}</h3>       
             </div>

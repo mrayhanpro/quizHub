@@ -12,8 +12,6 @@ import Quizes from './components/Quizes/Quizes';
 import DetailedBlog from './components/DetailedBlog/DetailedBlog';
 import blogData from './blogData.json';
 
-
-
 const router =  createBrowserRouter([
   {
     path: '/',
@@ -86,7 +84,6 @@ const router =  createBrowserRouter([
 
 
 function App() { 
-       
   return (
     <div className="App">
           <RouterProvider router={router}></RouterProvider>
