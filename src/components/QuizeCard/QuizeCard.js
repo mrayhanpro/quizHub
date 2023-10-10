@@ -11,7 +11,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
-const QuizeCard = ({question}) => {
+const QuizeCard = ({question, handleRightAnswerClick, handleWrongAnswerClick}) => {
+
     //The question as props destructuring:
         const { options, id, correctAnswer} = question;
 
@@ -49,7 +50,10 @@ const QuizeCard = ({question}) => {
 
             {/* The options */}
                 <div className='options-container'>
-                    {options.map((option, idx)=> <OptionCard key={idx} datas={[option, correctAnswer, id]}></OptionCard>)}
+                    {options.map((option, idx)=> <OptionCard
+                        key={idx} datas={[option, correctAnswer, id]} handleRightAnswerClick={handleRightAnswerClick}
+                        handleWrongAnswerClick={handleWrongAnswerClick}
+                    ></OptionCard>)}
                 </div>
             
             {/* The Answer Icon */}

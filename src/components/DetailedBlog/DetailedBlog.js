@@ -13,7 +13,6 @@ const DetailedBlog = () => {
 
     // Destructuring datas 
     const { question, answer} = specifiedBlogData
-    console.log(answer);
 
     return (
         <div>

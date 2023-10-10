@@ -4,15 +4,12 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const OptionCard = ({datas}) => {
-    
+const OptionCard = ({datas, handleRightAnswerClick, handleWrongAnswerClick}) => {
     // destructure the datas
     const [option, correctAnswer,] = datas;
 
-
-
-     // notify about the right answer using react toastify.
-     const customId = "custom-id-yes";
+    // notify about the right answer using react toastify.
+    const customId = "custom-id-yes";
 
     const notifyRight = (answerData) => {
         toast.success(`Well done! You did it. The answer '${answerData}' is correct `, {
@@ -37,13 +34,13 @@ const OptionCard = ({datas}) => {
         
         // Checking the answer right or wrong:
         if ( optionData === correctAnswer) {
-            notifyRight(correctAnswer)
-            
+            notifyRight(correctAnswer) 
+            handleRightAnswerClick(1)
         }
         else {
             // const theFeedBack = `Sorry. You made a mistake. The answer ${optionData} is wrong. Please study more`;
             notifyWrong(optionData)
-
+            handleWrongAnswerClick(1)
         }
     }
 
