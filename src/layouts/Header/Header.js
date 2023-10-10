@@ -1,14 +1,13 @@
-import { Outlet } from 'react-router-dom';
+import React from 'react';
 import Logo from '../../components/Logo/Logo';
 import Nabvar from '../../components/Navbar/Nabvar';
 import './Header.css';
-import React from 'react';
 
 const Header = () => {
     return (
        <div className='header'>
-       <Logo></Logo>
-       <Nabvar></Nabvar>
+        <Logo></Logo>
+        <Nabvar></Nabvar>
        </div>
     );
 };
