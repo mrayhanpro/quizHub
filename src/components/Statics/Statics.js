@@ -33,14 +33,7 @@ const getPath = (x, y, width, height) => {
 const Statics = () => {
     return (
         <div className='statics'>
-            <h1>Total Topics vs Total Quizes chart</h1>
-              <BarChart width={1000} height={400} data={totaldata} margin={{ left: 300, top: 100}}>
-                <XAxis dataKey='name'></XAxis>
-                <YAxis></YAxis>
-                <Tooltip></Tooltip>
-                <Bar dataKey="Quantity" fill="#8884d8" />
-              </BarChart>
-
+   
             <h1>Topic vs Quizes chart</h1>
 
             <BarChart width={1200} height={500} data={data}   margin={{left: 150, top: 50, bottom: 100 }} >

@@ -1,5 +1,7 @@
 .navitems a{
     margin-right: 20px;
+    font-size: smaller;
+    font-weight: normal;
 }
 .navitems a:hover {
   color: white;

@@ -1,8 +1,10 @@
 .blogs-cards-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 

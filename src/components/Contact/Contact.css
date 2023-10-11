@@ -1,18 +1,20 @@
+.contact-page {
+    margin: 0;
+}
 .contact-page  h1{
     text-align: center;
-    margin-bottom: 0;
+    font-size: larger;
 }
 
 .form-container {
-    padding: 25px;
     margin-bottom: 25px;
 }
 
 
 .form-container form {
     background-color: rgb(0, 119, 255);
-    width: 400px;
-    height: 500px;
+    width: 25%;
+    height: auto;
     text-align: center;
     margin: 0 auto;
     border-radius: 10px;
