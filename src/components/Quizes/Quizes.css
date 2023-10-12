@@ -1,33 +1,17 @@
-.selected-topic-logo-cont  {
-    width: 100%;
-    height: 10%;
-    background-color: aqua;
-
-}
-.selected-topic-logo-cont img {
-    width: 20%;
-    height: 250px;
-}
 
 /* Styles of Quizes Container  */
-
-
 .quize-and-stats-component-container {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
 }
 
 /* Styling name of the topic */
-.quizes-container h1 {
-    text-align: center;
-    margin: 0;
-}
+.quizes-container h1 {}
 
 .quize-card-container {
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto ;
+    padding: 10%;
 }
 
 

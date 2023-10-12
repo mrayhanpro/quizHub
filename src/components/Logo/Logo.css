@@ -1,6 +1,16 @@
 .logo{
-    margin-left: 20px;
+    margin-left: 25px;
     color: white;
     text-shadow: 1px 1px 5px black;
     
+}
+
+.logo h1 {
+    margin: 0;
+}
+.logo p {
+    text-shadow: none;
+    color: black;
+    font-weight: normal;
+    line-height: 0;
 }
