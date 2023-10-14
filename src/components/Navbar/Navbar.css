@@ -1,0 +1,12 @@
+.navitems a {
+    text-decoration: none;
+    color:  black;
+    font-weight: bolder;
+    font-size: smaller;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .navitems a:hover {
+    background-color: whitesmoke;
+  }
