@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: rgba(2, 136, 253, 0.744);
     align-items: center;
     box-shadow: 0px 10px 50px 20px  rgba(126, 186, 239, 0.514);

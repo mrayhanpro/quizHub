@@ -10,3 +10,21 @@
   .navitems a:hover {
     background-color: whitesmoke;
   }
+
+
+
+
+@media screen and (max-width: 576px) { 
+  .navitems  {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   background-color: aquamarine;
+   top: 0;
+   width: 100%;
+   text-align: center;
+  }
+  .navitems a:hover {
+    background-color: aliceblue;
+  }
+}
