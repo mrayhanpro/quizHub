@@ -11,18 +11,27 @@
     background-color: whitesmoke;
   }
 
+  .show {
+    background-color: yellow;
+  }
 
-
+  .hide {
+    background-color: red;
+  }
 
 @media screen and (max-width: 576px) { 
-  .navitems  {
+   .show  {
    display: flex;
    flex-direction: column;
    position: absolute;
    background-color: aquamarine;
-   top: 0;
+   top: -200px;
    width: 100%;
    text-align: center;
+  }
+
+  .hide {
+    background-color: blue;
   }
   .navitems a:hover {
     background-color: aliceblue;

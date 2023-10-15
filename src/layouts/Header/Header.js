@@ -12,7 +12,9 @@ const Header = () => {
     return (
        <div className='header'>
         <Logo></Logo>
-        <Nabvar></Nabvar>
+        {
+            openMenu ? <Nabvar openMenu={openMenu}/> : <Nabvar openMenu={openMenu}/>
+        }
         <div className='menuBar' onClick={() => setOpenMenu(!openMenu)}>
             { openMenu ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>}
         </div>

@@ -2,9 +2,12 @@ import React from 'react';
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
-const Nabvar = () => {
+const Nabvar = ({openMenu}) => {
+  console.log(openMenu);
+  
+  
     return (
-      <div className='navitems'>
+      <div className={`navitems ${openMenu ? "show" : "hide"}`}>
       <Link to='/'>Home</Link>
       <Link to='Topics'>Topics</Link>
       <Link to='Statics'>Statics</Link>
