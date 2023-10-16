@@ -16,7 +16,7 @@ const Header = () => {
             openMenu ? <Nabvar openMenu={openMenu}/> : <Nabvar openMenu={openMenu}/>
         }
         <div className='menuBar' onClick={() => setOpenMenu(!openMenu)}>
-            { openMenu ? <XMarkIcon></XMarkIcon> : <Bars3Icon></Bars3Icon>}
+            { openMenu ? <Bars3Icon></Bars3Icon> : <XMarkIcon></XMarkIcon>}
         </div>
        </div>
     );

@@ -1,12 +1,13 @@
 .sub-header {
     background-color: rgba(19, 254, 136, 0.448);
-    padding: 30px;
     color: black;
-}
-.sub-header h2 {
-    margin: 0;
-    padding: 5px;
-    text-align: center;
     font-size: larger;
-    background-color: none;
+    width: 100%;
+}
+
+.sub-header h3 {
+    margin: 0;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 25px;
 }
