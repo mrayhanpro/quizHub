@@ -13,7 +13,7 @@ const Blog = ({data}) => {
             <p id='blog-img-caption'>Image: {imageCaption}</p>
                 
             <div className='question-container'>
-                <h3>{question}</h3>       
+                <h3 className='the-question'>{question}</h3>       
             </div>
 
             <div className='blog-details'>

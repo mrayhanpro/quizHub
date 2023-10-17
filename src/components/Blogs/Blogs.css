@@ -8,3 +8,33 @@
 }
 
 
+
+/* Midea query for medium devices */
+@media only screen and ( max-width: 768px) { 
+    .blogs-cards-container {
+        grid-template-columns: auto;
+    }
+}
+
+/* Midea query for large devices */ 
+@media only screen and ( min-width: 769px) { 
+    .blogs-cards-container {
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;   
+    }
+}
+
+/* Midea query for extra large devices */
+@media only screen and ( min-width: 992px) { 
+    .blogs-cards-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+/* Midea query for extra extra large devices */
+@media only screen and ( min-width: 1200px) { 
+    .blogs-cards-container {
+        grid-template-columns: auto auto auto;
+    }
+}

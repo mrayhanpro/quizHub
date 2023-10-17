@@ -1,22 +1,22 @@
 /* Style for blog container and blog-containers-container */
 #blog {
-    background-color: rgb(41, 40, 40);
-    color: white;
-    border: 1px solid white;
+    background-color: rgb(246, 248, 250);
     border-radius: 10px;
     padding: 10px;
-    width: 350px;
-    height: 450px;
+    width: 355px;
+    height: 460px;
     text-align: left;
     margin: 25px;
-    box-shadow: 0px 0px 5px 1px blue;
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 19);
+  
+
 }
 
 #blog img {
-    width: 99%;
+    width: 100%;
     height: 60%;    
     border-radius: 10px; 
-    box-shadow: 0px 0px 20px 1px blue;
+  
 }
 
 #blog-img-caption {
@@ -31,8 +31,7 @@
 
 
 .question-container h3 {
-    color: white;
-    font-size: 20px;
+    font-size: larger;
     text-align: left;
     display: inline;
 }
@@ -47,7 +46,6 @@
 
 .blog-details h5 {
     margin: 0;
-    color: rgb(238, 238, 89);
     padding-top: 5px;
 }
 
@@ -58,7 +56,7 @@
 #blog a {
     display: block;
     padding: 0px 10px;
-    background-color: rgb(4, 194, 83);
+    background-color: rgb(39, 39, 239);
     border-radius: 5px;
     box-shadow: 0px 0px 10px 1px black;
     text-decoration: none;
@@ -70,5 +68,13 @@
 }
 
 #blog a:hover {
-    background-color: rgb(39, 39, 239);
+   
+    background-color: rgb(4, 194, 83);
+}
+
+@media screen and (min-width: 769px) {
+    #blog {
+        gap: 5%;
+    }
+    
 }
