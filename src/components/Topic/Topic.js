@@ -13,7 +13,6 @@ const Topic = ({topic}) => {
             </p>
                 <Link to={`Quizes/${topic.id}`}>Take ▶ </Link>
             </div>
-
         </div>
     );
 };

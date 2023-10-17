@@ -1,20 +1,13 @@
 import React from 'react';
 import './Statics.css'
 import Footer from '../../layouts/Footer/Footer';
-import { Cell , BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { Cell , BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-// First chart code
-const totaldata = [
-    { name: 'Total Topics', Quantity: 4 },
-    { name: 'Total Quizes', Quantity: 36 },
-  ];
-
-//  Second chart code
 const data = [
-    {Topic: 'React', TotalQuizes: 8, },
-    {Topic: 'JavaScript', TotalQuizes: 9,},
-    {Topic: 'CSS', TotalQuizes: 8, },
-    {Topic: 'Git', TotalQuizes: 11,},
+    {Topic: 'React', totalQuizes: 8, },
+    {Topic: 'JavaScript', totalQuizes: 9,},
+    {Topic: 'CSS', totalQuizes: 8, },
+    {Topic: 'Git', totalQuizes: 11,},
 ];
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
@@ -32,28 +25,37 @@ const getPath = (x, y, width, height) => {
   
 const Statics = () => {
     return (
-        <div className='statics'>
-   
+      <div className='statics'>
             <h1>Topic vs Quizes chart</h1>
-
-            <BarChart width={1200} height={500} data={data}   margin={{left: 150, top: 50, bottom: 100 }} >
-                <XAxis dataKey="Topic"></XAxis>
-                <YAxis></YAxis>
-                <Tooltip ></Tooltip>
-                <CartesianGrid  strokeDasharray="3 3"></CartesianGrid>
-                
-                <Bar
-                 type="monotone" dataKey="TotalQuizes" stroke="#010203" strokeWidth={2} fill='#0088FE' shape={<TriangleBar></TriangleBar>}
-                 label={{ position: 'top' }}>
-                    {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-                        ))}
-                 </Bar>
-            </BarChart>
-  
-        <Footer></Footer>
+            <div className='chart-container'>
+              <ResponsiveContainer width="90%" height={600}>
+                  <BarChart
+                    data={data}
+                  >
+                    <XAxis dataKey="Topic"></XAxis>
+                    <YAxis></YAxis>
+                    <Tooltip ></Tooltip>
+                    <CartesianGrid  strokeDasharray="3 3  "></CartesianGrid>
+                    <Bar
+                        type="monotone" 
+                        barSize={100}
+                        dataKey="totalQuizes" 
+                        stroke="#010203" 
+                        strokeWidth={2} 
+                        fill='#0088FE' 
+                        shape={<TriangleBar></TriangleBar>}
+                        label={{ position: 'top' }}>
+                            {data.map((entry, index) => (
+                                <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                                ))}
+                    
+                    </Bar>
+                  </BarChart>
+              </ResponsiveContainer>
+            </div>
+          <Footer></Footer>
         </div>
     );
-};
+};  
 
 export default Statics;
