@@ -10,9 +10,9 @@ const Nabvar = ({openMenu}) => {
         <Link to='Statics'>Statics</Link>
         <Link to='Blogs'>Blogs</Link>
         <Link to='About'>About</Link>
-        <Link to='Contact'>Contat</Link>
+        <Link to='Contact'>Contact us</Link>
     </div>
     );
 };
 
-export default Nabvar;
+export default Nabvar;  

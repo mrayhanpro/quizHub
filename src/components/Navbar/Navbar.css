@@ -2,14 +2,18 @@
     text-decoration: none;
     color:  black;
     font-weight: bolder;
-    font-size: smaller;
+    font-size: larger;
     padding: 5px 15px;
+    border-radius: 5px;
+  }
+  .navitem a:hover {
+    background-color: greenyellow;
   }
 
 
-/* Media query for medium mobile devices */
+/* Media query for small devices */
 @media screen and (max-width: 576px) { 
-   .show  {
+  .hide {
    display: flex;
    flex-direction: column;
    position: fixed;
@@ -24,7 +28,7 @@
    padding-top: 12%;
   }
 
-  .hide {
+   .show {
     width: 50%;
     height: 100%;
     display: flex;
@@ -43,7 +47,60 @@
   .navitem a:nth-child(odd) {
     background-color: rgba(255, 255, 255, 0.211);
   }
-  .navitem a:hover {
-    background-color: greenyellow;
-  }
+
 }
+
+/* Midea query for medium devices */
+@media only screen and ( max-width: 768px) { 
+  .hide {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgb(2, 136, 253);
+    top: 0;
+    right: -1000px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    transition: ease-out;
+    transition-duration: 0.5s;
+    padding-top: 12%;
+   }
+ 
+    .show {
+     width: 50%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+     top: 0;
+     right: 0;
+     text-align: center;
+     background-color: rgb(2, 136, 253);
+     transition: ease-in-out;
+     transition-duration: 01s;
+     z-index: 2;
+     padding-top: 12%;
+   }
+ 
+   .navitem a:nth-child(odd) {
+     background-color: rgba(255, 255, 255, 0.211);
+   }
+   .navitem a:hover {
+     background-color: greenyellow;
+   }
+}
+
+/* Midea query for large devices */ 
+@media only screen and ( min-width: 769px) {
+      .navitem a {
+        font-size: smaller;
+        margin: 0;
+      }
+ }
+
+/* Midea query for extra large devices */
+@media only screen and ( max-width: 1200px) { }
+
+/* Midea query for extra extra large devices */
+@media only screen and ( max-width: 1400px) { }

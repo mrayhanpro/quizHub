@@ -27,22 +27,42 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-items: center;
     padding: 7px 10px;
     background-color: rgb(46, 9, 255);
     border-radius: 5px;
     font-size: smaller;
     text-decoration: none;
     color: white;
+    width: auto;
+    height: auto;
 }
 
-.topic a:hover {
+.topic a:hover {    
     color: black;
     background-color: rgb(5, 254, 5);
     font-weight: bold;
+    font-size: smaller  ;
 }
 
-.topic:hover {
-    outline: 3px solid rgb(5, 246, 5);
+
+
+/* Midea query for medium devices */
+@media only screen and ( max-width: 768px) {
+    .topic img {
+        max-width: 400px;
+    }
+ }
+
+/* Midea query for large devices */ 
+@media only screen and ( min-width: 769px) {
+    .topic img {
+        max-width: 250px;
+    }
 }
 
+/* Midea query for extra large devices */
+@media only screen and ( min-width: 992px) {
+    .topic img {
+        max-width: 350px;
+    }
+}

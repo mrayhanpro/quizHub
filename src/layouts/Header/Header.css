@@ -5,17 +5,56 @@
     align-items: center;
     background-color: rgba(2, 136, 253, 0.744);
     box-shadow: 0px 10px 50px 20px  rgba(126, 186, 239, 0.514);
+    padding: 1%;
 }
 
 .menuBar {
     width: 04%;
     z-index: 3;
     position: fixed;
-    top: 15px;
-    right: 15px;
+    top: 2%;
+    right: 3%;
     
 
 }
+
+/* Media queries */
+/* Midea query for small devices */
+@media only screen and ( max-width: 576px) {
+
+ }
+
+/* Midea query for medium devices */
+@media only screen and ( max-width: 768px) {
+    .header {
+        padding: 0;
+    }
+ }
+/* Midea query for large devices */ 
+@media only screen and ((min-width: 769px)) { 
+    .menuBar {
+        display: none;
+    }
+    .header {
+    }
+
+}
+
+/* Midea query for extra large devices */
+@media only screen and (min-width: 768px) { 
+ 
+}
+
+/* Midea query for extra extra large devices */
+@media only screen and ( min-width: 1400px) { }
+
+
+
+
+
+
+
+
 
 /* @media screen and (max-width: 575.98px) {
     .header {
@@ -28,7 +67,6 @@
         
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .header {
