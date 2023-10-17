@@ -44,9 +44,10 @@
    text-align: center;
 }
 #submit, #reset {
-    width: 100%;
-    padding: 5px 30px;
+    padding: .5% 2%;
     border: none;
+    font-size: smaller;
+    font-weight: bolder;
 
 }
 #submit:hover, #reset:hover {
@@ -54,16 +55,49 @@
 
 }
 
-
 .form-buttons {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    column-gap: 50px;
-    text-align: center;
+    column-gap: 3%;
     width: 80%;
     margin: 0 auto;
     margin-top: 15px;
     
+}
+
+
+@media only screen and ( max-width: 576px) {
+    .form-container form {
+        width: 80%;
+        height: 600px;
+        margin-bottom: 25%;
+        margin-top: 30px;
+    }
+    .form-container form input {
+        width: 60%;
+    }
+    .form-container form label {
+        font-size: smaller;
+        font-weight: bold;
+        width: 70%;
+    
+
+
+    }
+    .form-container form textarea {
+        width: 60%;
+    }
+ 
+    .form-buttons {
+        width: 60%;
+        background-color: yellow;
+    }
+
+    #submit, #reset {
+    
+    }
+
+  
 }

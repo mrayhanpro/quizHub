@@ -9,7 +9,7 @@ const Topics = () => {
     const {data} = topicsData;
     return (
         <div className='topics'>
-            <h2 className='topic-container-heading'> Select the topic you would love to get quiz about.</h2>
+            <h2 className='topic-container-heading'> Select the topic you would love to get quizes about...</h2>
             <div className='topics-cont'>
                 {
                     data.map(topic => <Topic
