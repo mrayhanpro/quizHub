@@ -9,10 +9,15 @@
     height: auto;
 }
 
-.topics h2 {
-    margin: 0;
+
+
+.topic-container-heading {
     padding: 10px;
-    font-size: larger;
+    font-size: 4vw;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 70%;
+    padding: 2%;
     text-align: center;
 }
 

@@ -8,6 +8,8 @@
   }
   .navitem a:hover {
     background-color: greenyellow;
+    transition: ease-in-out;
+    transition-duration: .6s;
   }
 
 

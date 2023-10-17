@@ -1,16 +1,17 @@
 .sub-header {
-    background-color: rgba(19, 254, 136, 0.448);
-    color: black;
-    font-size: larger;
+    background-color: rgb(145, 253, 67) ;
     width: 100%;
     height: auto;
     padding: 1%;
+ 
 }
 
 .sub-header h3 {
+    font-size: 3vw;
     margin: 0 auto;
-    font-weight: normal;
+    font-weight: bold;
     overflow: hidden;
     padding: 1.5%;
     width: 60%;
+    text-align: center;
 }

@@ -4,14 +4,14 @@ import Footer from '../../layouts/Footer/Footer';
 
 const Contact = () => {
     return (
-        <div className='contact-page'>
+        <div className='contact'>
             <h1>Get In Touch!</h1>
             <div className='form-container'>          
                 <form action="/action_page.php">
                     <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname" placeholder="John"/><br/>
+                    <input type="text" id="fname" name="fname" placeholder="Your first name here"/><br/>
                     <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname" placeholder="Doe"/><br/>
+                    <input type="text" id="lname" name="lname" placeholder="Your last name here"/><br/>
 
                     <label for="email">Your Email:</label>
                     <input type="email" id="email" name="email" placeholder='example@gmail.com'/><br/>
@@ -21,8 +21,12 @@ const Contact = () => {
 
                     <textarea placeholder='Write your messege here...' id='messege' name='messege'></textarea> <br/>
 
-                    <input type="submit" value="Submit"/>
-                    <input type="reset"/>
+                    
+
+                    <div className='form-buttons'>
+                            <input id='submit' type="submit" value="Submit"/>
+                            <input id='reset' type="reset"/>
+                    </div>
                 </form>
             </div>
             <Footer></Footer>
