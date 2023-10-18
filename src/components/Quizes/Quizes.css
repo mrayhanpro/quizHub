@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
-    background-color: green;
+    background-color: rgba(3, 3, 38, 0.855);
     padding: 5%;
 }
 
