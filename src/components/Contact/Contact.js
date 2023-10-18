@@ -19,14 +19,11 @@ const Contact = () => {
                     <label for="number"> Your phone:</label>
                     <input type="number" id="number" name="number" placeholder='+8801xxxxxxxxx'/><br/>
 
+                    <label for="messege">Type your messege here:</label>
                     <textarea placeholder='Write your messege here...' id='messege' name='messege'></textarea> <br/>
 
-                    
-
-                    <div className='form-buttons'>
-                            <input id='reset' type="reset"/>
-                            <input id='submit' type="submit" value="Submit"/>
-                    </div>
+                    <label for="submit">Click the button to submit:</label>
+                    <input type="submit" value="Submit" id='submit'/>
                 </form>
             </div>
             <Footer></Footer>
