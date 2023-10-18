@@ -7,10 +7,6 @@ import { Link } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
-
-
-
 const QuizeCard = ({question, handleRightAnswerClick, handleWrongAnswerClick}) => {
 
     //The question as props destructuring:
@@ -31,11 +27,11 @@ const QuizeCard = ({question, handleRightAnswerClick, handleWrongAnswerClick}) =
             if(! toast.isActive(toastId.current)){
                 toastId.current = toast.success(data, {
                     autoClose: 2000,
-                    position: 'bottom-right',
-                   
+                    position: 'bottom-right',               
                 });
             }
         };
+
         const handleSeeAnswerIconClick = () => {
             notify(`The answer is => "${question.correctAnswer}" <=`, {
                 icon: false

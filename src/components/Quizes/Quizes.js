@@ -23,25 +23,22 @@ const Quizes = () => {
     }
 
     return (
-        <div className='quizes'>
            
             <div className='quize-and-stats-component-container'>
                 <div className='quize-card-container'>
                     <h1>Quizes of {name}</h1>
-                    {questions.map(question => <QuizeCard 
-                        key={questions.id} question={question} handleRightAnswerClick={handleRightAnswerClick}
-                        handleWrongAnswerClick={handleWrongAnswerClick}
-                    ></QuizeCard>)}            
+                    <div>
+                        {questions.map(question => <QuizeCard 
+                            key={questions.id} question={question} handleRightAnswerClick={handleRightAnswerClick}
+                            handleWrongAnswerClick={handleWrongAnswerClick}
+                        ></QuizeCard>)}  
+                    </div>          
                 </div>
-                <div className='stats-component-container'>
-                    <Stats
-                        countRightAnswer={countRightAnswer}
-                        countWrongAnswer={countWrongAnswer}
-                    ></Stats>
-                </div>
-            
+                <Stats
+                    countRightAnswer={countRightAnswer}
+                    countWrongAnswer={countWrongAnswer}
+                ></Stats>
             </div>
-        </div>
     );
 };
 

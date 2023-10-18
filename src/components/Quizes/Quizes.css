@@ -1,24 +1,39 @@
-
 /* Styles of Quizes Container  */
 .quize-and-stats-component-container {
     display: grid;
     grid-template-columns: auto auto;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+    background-color: green;
+    padding: 5%;
 }
-
-/* Styling name of the topic */
-.quizes-container h1 {}
 
 .quize-card-container {
-    padding: 10%;
+    width: 70vw;
+    background-color: yellow;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.quize-card-container h1 {
+    margin: 0;
+    font-size: 5vw;
+    text-align: center;
+
+}
+
+.quize-card-container div {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
 }
 
 
-@media only screen and (max-width: 576px) {
-    .quize-and-stats-component-container {
 
-    }
-}
 
 

@@ -4,10 +4,8 @@ import './Stats.css'
 const Stats = ({countRightAnswer, countWrongAnswer}) => {
     return (
         <div id='stats' className='stats'>
-
             <h1>Stats:</h1>
-
-           <div id='total-correct-answer-container'className='state-container'>
+            <div id='total-correct-answer-container'className='state-container'>
                 <h3>Total correct answer:</h3>
                 <p className='total-correct-answer-number number-container'>{countRightAnswer}</p>
            </div>
@@ -19,6 +17,6 @@ const Stats = ({countRightAnswer, countWrongAnswer}) => {
            
         </div>
     );
-};
+};  
 
 export default Stats;
