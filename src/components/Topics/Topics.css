@@ -9,8 +9,6 @@
     height: auto;
 }
 
-
-
 .topic-container-heading {
     padding: 10px;
     font-size: 4vw;
@@ -21,14 +19,16 @@
     text-align: center;
 }
 
-
 /* Query for small screen */
 @media only screen and (max-width: 768px) {
     .topics-cont {
         display: grid;
         grid-template-columns: auto;
-        gap: 50px;  
-        padding: 100px;
+        gap: 50px;
+    }
+    .topic-container-heading {
+        font-size: 5vw;
+        margin-top: 15px;
     }
 }
 
@@ -38,7 +38,10 @@
         display: grid;
         grid-template-columns: auto auto;
         gap: 50px;  
-        padding: 100px;
+    }
+    .topic-container-heading {
+        font-size: 5vw;
+        margin-top: 15px;  
     }
 }
 
@@ -47,7 +50,10 @@
     .topics-cont {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 100px;
         gap: 8%;
+    }
+    .topic-container-heading {
+        font-size: 5vw;
+        margin-top: 15px;
     }
 }

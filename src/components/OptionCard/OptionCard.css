@@ -1,21 +1,26 @@
 .option-card {
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 5vw;
-    height: 5vh;
+    width: 12vw;
+    height: 8vh;
     box-shadow: 1px 1px 5px 1px black;
     font-size: smaller;
+    padding: 5px;
+    overflow-wrap: break-word;
     
 }
 
-
-.option-card h6 {
-    width: 100%;
-}
 .option-card:hover {
     background-color: rgba(0, 253, 0, 0.829);
 }
+
+
+@media only screen and (max-width: 992px) {
+    .option-card {
+        width: 20vw;
+    }
+}
+
 

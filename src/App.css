@@ -1,10 +1,5 @@
-html, body {
-    /* overflow-x: hidden; */
-
-}
-
 * {
     box-sizing: border-box;
     transition: ease-in-out;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }

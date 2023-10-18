@@ -2,24 +2,33 @@
 .quize-card {
     background-color: white;
     width: 30vw;
-    height: 30vh;
+    height: 33vh;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px black;
     padding: 10px;
     position: relative;
+   
 }
+
 .quize-card h3 {
     text-align: center;
     font-size: smaller;
+    width: 80%;
+    margin: 10px auto;
  
 }
 
 /* Managing quize's option's container */
 .options-container {
-    background-color: red;
+    /* background-color: red; */
     align-items: center;
-  
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
    
 }
 
@@ -42,4 +51,14 @@
     color: black;
 }
 
-
+@media only screen and (max-width: 992px) {
+    .quize-card {
+        width: 55vw;
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .quize-card {
+        height: 42vh;
+    }
+}

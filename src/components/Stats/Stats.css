@@ -3,16 +3,15 @@
     background-color: rgb(2, 136, 253);
     position: sticky;
     top: 0;
-    width: 300px;
+    width: 20vw;
     height: 100vh;
     text-align: center;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 #stats h1 {
-    margin: 0;
-    margin-bottom: 25px;
-    font-size: larger;
+    font-size: 3vw;
+    margin-bottom: 10%;
 }
 
 
@@ -29,13 +28,13 @@
 .state-container {
     margin: 0 auto;
     width: 70%;
-    height: auto;
+    height: 35vh;
     border-radius: 10px;
 }
 .state-container h3 {
     margin: 0;
     margin-top: 10px;
-    font-size: larger;
+    font-size: smaller;
 }
 
 
@@ -45,4 +44,8 @@
     font-weight: bold;
 }
 
-
+/* @media only screen and (max-width: 768px) {
+    #stats {
+        width: 30vw;
+    }
+} */

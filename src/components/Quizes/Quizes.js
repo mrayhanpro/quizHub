@@ -22,17 +22,14 @@ const Quizes = () => {
         setCountWrongAnswer(countWrongAnswer + wrongAnswerCount);
     }
 
-    return (
-           
-            <div className='quize-and-stats-component-container'>
+    return (  <div className='quize-and-stats-component-container'>
                 <div className='quize-card-container'>
                     <h1>Quizes of {name}</h1>
-                    <div>
+    
                         {questions.map(question => <QuizeCard 
                             key={questions.id} question={question} handleRightAnswerClick={handleRightAnswerClick}
                             handleWrongAnswerClick={handleWrongAnswerClick}
-                        ></QuizeCard>)}  
-                    </div>          
+                        ></QuizeCard>)}        
                 </div>
                 <Stats
                     countRightAnswer={countRightAnswer}

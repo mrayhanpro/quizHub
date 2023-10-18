@@ -8,31 +8,39 @@
 }
 
 .quize-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     width: 70vw;
     background-color: yellow;
     padding-top: 2%;
     padding-bottom: 5%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
+    padding-top: 11%;
+    position: relative;
 }
 
 .quize-card-container h1 {
-    margin: 0;
-    font-size: 5vw;
-    text-align: center;
-
+    position: absolute;
+    top: 0;
+    left: 25vw;
+    font-size: 3vw;
+    z-index: 1;
 }
 
-.quize-card-container div {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-
+@media only screen and (max-width: 992px) {
+    .quize-card-container {
+        grid-template-columns: auto;
+    }
 }
-
+@media only screen and (min-width: 993px) {
+    .quize-card-container {
+       
+    }
+}
 
 
 

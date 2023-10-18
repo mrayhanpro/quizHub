@@ -16,7 +16,7 @@ const Stats = ({countRightAnswer, countWrongAnswer}) => {
            </div>
            
         </div>
-    );
+    );  
 };  
 
 export default Stats;
