@@ -19,7 +19,7 @@ Proving quiz test materials to the learners and job seekers so that they can kno
 5. Get in touch section - Users can contact us with just their name and  an email.
 6. Get updates - After signing up the  users will be notified about their performances and platform features and so on.
 ## Note:
- on the very first release we have some mistakes. Please consider. Have a wonderful life.
+ On the very first release we may have some unintentional mistakes. Please consider it. Have a wonderful life.
 
    
 
